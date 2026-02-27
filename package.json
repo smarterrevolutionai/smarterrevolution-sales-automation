@@ -1,0 +1,32 @@
+{
+  "name": "ai-visibility-audit-automation",
+  "version": "1.0.0",
+  "description": "Automated AI visibility audit system for Smarter Revolution AI",
+  "main": "auto-audit-full.js",
+  "scripts": {
+    "start": "node auto-audit-full.js",
+    "test": "node test-automation.js",
+    "dev": "nodemon auto-audit-full.js"
+  },
+  "dependencies": {
+    "commander": "^14.0.3",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^6.9.0",
+    "pdfkit": "^0.14.0",
+    "puppeteer": "^21.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  },
+  "keywords": [
+    "ai",
+    "automation",
+    "audit",
+    "pdf",
+    "email"
+  ],
+  "author": "Smarter Revolution AI",
+  "license": "MIT"
+}
